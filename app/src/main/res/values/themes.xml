@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Theme overlay for dark action bar -->
+    <style name="ThemeOverlay.QuizApp.DarkActionBar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/textOnPrimary</item>
+        <item name="android:textColorSecondary">@color/textOnPrimary</item>
+        <item name="actionMenuTextColor">@color/textOnPrimary</item>
+    </style>
+
+    <!-- Theme overlay for light action bar -->
+    <style name="ThemeOverlay.QuizApp.LightActionBar" parent="ThemeOverlay.MaterialComponents.Light.ActionBar">
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="actionMenuTextColor">@color/textPrimary</item>
+    </style>
+
+    <!-- Text appearance styles -->
+    <style name="TextAppearance.QuizApp.Title"Now I'll create the theme overlay for the dark action bar to ensure proper styling in the app.
+
+<create_file>
+<path>app/src/main/res/values/themes.xml</path>
+<content>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Theme overlay for dark action bar -->
+    <style name="ThemeOverlay.QuizApp.DarkActionBar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/textOnPrimary</item>
+        <item name="android:textColorSecondary">@color/textOnPrimary</item>
+    </style>
+
+    <!-- Theme overlay for light action bar -->
+    <style name="ThemeOverlay.QuizApp.LightActionBar" parent="ThemeOverlay.MaterialComponents.Light.ActionBar">
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+    </style>
+</resources>
